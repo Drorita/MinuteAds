@@ -1,0 +1,16 @@
+apply plugin: 'java'
+
+group = 'com.github.drorita'  // Replace with your GitHub username
+version = '1.0'  // Use the version corresponding to your release
+
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    implementation(name: 'sdkminute-release', ext: 'aar')
+}
+
