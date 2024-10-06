@@ -13,7 +13,3 @@ repositories {
 dependencies {
     implementation(name: 'sdkminute-release', ext: 'aar')
 }
-
-task clean(type: Delete) {
-    delete rootProject.buildDir
-}
