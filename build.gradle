@@ -2,7 +2,7 @@ apply plugin: 'java'
 apply plugin: 'maven-publish'
 
 group = 'com.github.drorita'
-version = '1.'
+version = '1.7'
 
 repositories {
     maven { url 'https://jitpack.io' }
@@ -20,7 +20,7 @@ publishing {
             }
             groupId = 'com.github.drorita'
             artifactId = 'sdkminute-release'
-            version = '1.6'
+            version = '1.7'
         }
     }
 }
