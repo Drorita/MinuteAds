@@ -22,7 +22,7 @@ publishing {
             }
             groupId = 'com.github.drorita'
             artifactId = 'sdkminute-release'
-            version = '1.2'
+            version = '1.3'
         }
     }
 }
