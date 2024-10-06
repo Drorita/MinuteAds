@@ -2,7 +2,7 @@ apply plugin: 'java'
 apply plugin: 'maven-publish'
 
 group = 'com.github.drorita'
-version = '1.2'
+version = '1.4'
 
 repositories {
     flatDir {
@@ -22,7 +22,7 @@ publishing {
             }
             groupId = 'com.github.drorita'
             artifactId = 'sdkminute-release'
-            version = '1.3'
+            version = '1.4'
         }
     }
 }
